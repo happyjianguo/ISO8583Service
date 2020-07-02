@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISO8583>
+    <body>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+    </body>
+</ISO8583>

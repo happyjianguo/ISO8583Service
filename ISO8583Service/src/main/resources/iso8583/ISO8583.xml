@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISO8583>
+    <body>
+        <field index="2" alias="primaryAcctNum" length="10" /> <!-- 主账号 -->
+        <field index="3" alias="processingCode" length="5"/> <!-- 交易处理码 -->
+        <field index="4" alias="amtTrans" length="8"/> <!-- 交易金额 -->
+        <field index="5" alias="amtSettlmt" length="10"/> <!-- 清算金额 -->
+        <field index="6" alias="amtCdhldrBil" length="5"/> <!-- 持卡人扣账金额 -->
+        <field index="7" alias="transmsnDateTime" length="8"/> <!-- 交易传输时间 -->
+        <field index="8" alias="pan" length="10"/>
+        <field index="9" alias="convRateSettlmt" length="5"/> <!-- 清算汇率 -->
+        <field index="10" alias="convRateCCdhldrBil" length="8"/> <!-- 持卡人扣账汇率 -->
+        <field index="11" alias="sysTraceAuditNum" length="8"/> <!-- 系统跟踪号 -->
+        <field index="12" alias="timeLocalTrans" length="10"/> <!-- 受卡方所在地时间 -->
+        <field index="13" alias="dateLocalTrans" length="5"/> <!-- 受卡方所在地日期 -->
+        <field index="14" alias="dateExpr" length="8"/> <!-- 卡有效期 -->
+        <field index="15" alias="dateSettlmt" length="10"/> <!-- 清算日期 -->
+        <field index="16" alias="dateConv" length="5"/> <!-- 兑换日期 -->
+        <field index="17" alias="amount" length="8"/>
+        <field index="18" alias="mchntType" length="10"/> <!-- 商户类型 -->
+        <field index="19" alias="mchntCntryCode" length="5"/> <!-- 商户国家代码 -->
+        <field index="20" alias="amount" length="8"/>
+        <field index="21" alias="amount" length="8"/>
+        <field index="22" alias="posEntryModeCode" length="10"/> <!-- 服务点输入方式码 -->
+        <field index="23" alias="cardSeqId" length="5"/> <!-- 卡序列号 -->
+        <field index="24" alias="amount" length="8"/>
+        <field index="25" alias="posCondCode" length="10"/> <!-- 服务点条件码 -->
+        <field index="26" alias="posPinCaptrCode" length="5"/> <!-- 服务点PIN获取码 -->
+        <field index="27" alias="amount" length="8"/>
+        <field index="28" alias="amtTransFee" length="10"/> <!-- 交易费 -->
+        <field index="29" alias="processCode" length="5"/>
+        <field index="30" alias="amount" length="8"/>
+        <field index="31" alias="amount" length="8"/>
+        <field index="32" alias="pan" length="10"/> <!-- 代理机构标识码 -->
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="2" alias="pan" length="10"/>
+        <field index="3" alias="processCode" length="5"/>
+        <field index="4" alias="amount" length="8"/>
+        <field index="4" alias="amount" length="8"/>
+    </body>
+</ISO8583>
